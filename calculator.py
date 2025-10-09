@@ -18,10 +18,17 @@ def divide(self, a, b):
 
 return a / b
 
+<<<<<<< HEAD
 def square_root(self, x):
     if x < 0:
         raise ValueError("Cannot take square root of a negative number.")
     return math.sqrt(x)
+=======
+def divide(self, a, b):
+    if b == 0:
+        raise ValueError("Cannot divide by zero.")
+    return a / b
+>>>>>>> dev
 
 # TODO: Implement the following function to calculate the square root of a number.
 
@@ -51,5 +58,8 @@ print(f"{num1} / {num2} = {calculator.divide(num1, num2)}")
 
 # print(f"The square root of {num3} = {calculator.square_root(num3)}")
 
+<<<<<<< HEAD
     num3 = 25
 print(f"The square root of {num3} = {calculator.square_root(num3)}")
+=======
+>>>>>>> dev
